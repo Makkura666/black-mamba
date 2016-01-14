@@ -9,7 +9,7 @@ Also I don't know what to call this engine and so I'll temporarely codename it [
 ## Cloning
 the `libs/` folder contain external dependencies and they are tracked using git submodules. In order to compile the program you must use the --recursive option.
 ```
-git clone git@github.com:ArthurSonzogni/OpenGL_CMake_Skeleton.git --recursive
+git clone git@github.com:Makkura666/black-mamba.git --recursive
 ```
 If you didn't use the --recursive option, you can also use these.
 ```
