@@ -54,10 +54,6 @@ mkdir xcode && cd xcode
 cmake -G 'Xcode' ..
 ```
 
-# Todo
-* what licence should this project use
-* parse CMakeLists CMake_Skeleton for ideas
-
 # Used resources
 * [ASCII text generator](http://patorjk.com/software/taag/)
 Used for generating intro title for the terminal
