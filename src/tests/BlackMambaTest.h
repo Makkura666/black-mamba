@@ -12,7 +12,7 @@
 #ifndef BLACKMAMBATEST
 #define BLACKMAMBATEST
 
-#include "system/Application.h"
+#include "../system/Application.h"
 
 class BlackMambaTest : public Application
 {
