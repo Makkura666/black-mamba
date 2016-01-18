@@ -1,1 +1,10 @@
-* Create debug class
+// Main
+* implement programhalla
+
+// Tech willing to inplement
+Window handling / Input		GLFW
+Audio						openAL
+Physics abstraction layer	PAL -> ODE / BULLET / PhysX (Havok unsupported)
+Scripting					LUA / Python (Stackless) / Ruby
+Platform abstraction		Boost 
+Others						dlib / Loki / PoCo
