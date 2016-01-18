@@ -54,6 +54,9 @@ mkdir xcode && cd xcode
 cmake -G 'Xcode' ..
 ```
 
-# Used resources
+# Tools used
 * [ASCII text generator](http://patorjk.com/software/taag/)
 Used for generating intro title for the terminal
+
+# Resources
+* [Grandmaster blog](http://www.grandmaster.nu/blog/?page_id=118) - Incomplete but very interresting game engine blog. Mainly I read about his opinion on what should be in an engine and what components you should think of using.
