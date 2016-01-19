@@ -18,8 +18,10 @@ class BlackMambaTest : public Application
 {
 	public:
 		BlackMambaTest();
+
+	private:
 		void printMessage();
-		char const *message = "\nWiggle your big toe !";
+		char const *message = "Wiggle your big toe !";
 
 };
 
