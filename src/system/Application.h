@@ -13,7 +13,12 @@ class Application
 {
 	public:
 		Application();
+
+		// Start the application
 		void run();
+
+		// Call the first child loop method
+		virtual void loop();
 };
 
 #endif
