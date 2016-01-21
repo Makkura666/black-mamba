@@ -1,5 +1,6 @@
 // Main
-* test gameloop
+* inplement scribble.cpp into gameloop
+* cleanup all classes
 * implement programhalla
 
 // Tech willing to inplement
