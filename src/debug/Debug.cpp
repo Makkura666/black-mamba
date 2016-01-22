@@ -1,6 +1,14 @@
+/**
+* Debug.cpp
+* Contributors:
+*	* Jens Ackou
+* Description:
+*	Print ASCII logo and variable data.
+*/
+
 #include "Debug.h"
-#include <iostream>
 #include <GLFW/glfw3.h>
+#include <iostream>
 
 Debug::Debug()
 {
@@ -31,5 +39,4 @@ void Debug::printDebug()
 	    
 	    counter++;
 	}
-
 }

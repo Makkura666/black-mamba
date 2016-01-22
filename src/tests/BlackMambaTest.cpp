@@ -15,7 +15,7 @@
 BlackMambaTest::BlackMambaTest()
 {
 	// constructor test
-	std::cout << "[INFO]: Initiating engine\n";
+	std::cout << "[BLACKMAMBATEST]: Init BlackMambaTest\n";
 	printMessage();
 }
 

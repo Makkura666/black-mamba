@@ -39,7 +39,7 @@ cmake ..
 ./main
 ```
 
-## usage (Windows)
+## Usage (Windows)
 For instance :
 * cmake-gui .
 * Configure (Choose for example Visual Studio generator)

@@ -3,7 +3,8 @@
 * Contributors:
 *	* Jens Ackou
 * Description:
-*	
+*	Testing of a general game loop.
+*	Can be used to test and tweak the game loop performance.
 */
 
 #ifndef GAMELOOPTEST 
@@ -15,6 +16,8 @@ class GameLoopTest : public Application
 {
 	public:
 		GameLoopTest();
+		
+	private:
 		char const *message = "Wiggle your big toe !";
 		virtual void loop();
 
