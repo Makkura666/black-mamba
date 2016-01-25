@@ -1,4 +1,4 @@
-# Black Mamba Gaming Engine
+# Black Mamba Gaming Engine ![alt tag](https://travis-ci.org/Makkura666/black-mamba.svg?branch=master)
 A cross-platform OpenGL game engine, using `GLFW`, `Glew` and `glm` in C++.
 Different project configuration are generated with `cmake`.
 
@@ -23,7 +23,7 @@ git submodule update
 * OpenGL drivers (>=3.0)
 * Some standard library depending on your platform
 
-## Linux 
+## Linux
 To build, you could need to have the following library (not exhaustive) on ubuntu :
 * libxi-dev
 * libxinerama-dev
