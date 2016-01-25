@@ -1,24 +1,26 @@
 /**
-* Application.h
-* Contributors:
-*	* Jens Ackou
-* Description:
-*	Contains everything your need for creating a window through GLFW.
-*/
+ * Application.h
+ * Contributors:
+ *	* Jens Ackou
+ * Description:
+ *	Contains everything your need for creating a window through GLFW.
+ */
 
 #ifndef APPLICATION
 #define APPLICATION
 
 class Application
 {
-	public:
-		Application();
-		void run();
+public:
 
-	private:
-		// call the first child loop method
-		virtual void loop();
+  Application();
+  void run();
 
+private:
+
+  // call the first child loop method
+  virtual void update();
+  virtual void render();
 };
 
-#endif
+#endif /* ifndef APPLICATION */
