@@ -1,16 +1,16 @@
 // Main
-* implement scribble.cpp into gameloop
-* cleanup all classes
+* implement OGL in test cases
+* implement scribble.cpp into game loop
 * implement programhalla
 * revisit README.md
 * why do the OpenGL_CMake_Skeleton libs compile perfectly
   when I got the exact same submodule file ?
 * revisit CMakeLists.txt
 
-// Tech willing to inplement
+// Tech willing to implement
 Window handling / Input		GLFW
 Audio						openAL
 Physics abstraction layer	PAL -> ODE / BULLET / PhysX (Havok unsupported)
 Scripting					LUA / Python (Stackless) / Ruby
-Platform abstraction		Boost 
+Platform abstraction		Boost
 Others						dlib / Loki / PoCo

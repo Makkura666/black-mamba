@@ -2,7 +2,7 @@
   "execPath": "/usr/bin/g++",
   "gccDefaultCFlags": "-c -Wall -fsyntax-only -Wc++11-extensions",
   "gccDefaultCppFlags": "-c -Wall -std=c++11 -fsyntax-only -Wc++11-extensions",
-  "gccErrorLimit": 15,
+  "gccErrorLimit": 10,
   "gccIncludePaths": ".,./include,./path,./lib/glfw/include",
   "gccSuppressWarnings": false
 }

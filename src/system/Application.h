@@ -9,14 +9,48 @@
 #ifndef APPLICATION
 #define APPLICATION
 
+#include <string>
+
+class GLFWwindow;
+
 class Application
 {
 public:
 
   Application();
-  void run();
+
+  static Application& getInstance();
+
+  // Get the window id
+  GLFWwindow        * getWindow() const;
+
+  // Window control
+  void                exit();
+
+  // Application run
+  void                run();
 
 private:
+
+  enum State {
+    stateReady,
+    stateRun,
+    stateExit
+  };
+
+  State state;
+
+  Application& operator = (const Application&) {return *this; }
+
+  GLFWwindow *window;
+  int width;
+  int height;
+
+protected:
+
+  Application(const Application &) {};
+
+  std::string title;
 
   // call the first child loop method
   virtual void update();

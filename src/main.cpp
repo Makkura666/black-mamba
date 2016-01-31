@@ -7,11 +7,11 @@
  *	you want to run by swapping the include and instance variable.
  */
 
-#include "tests/GameLoopTest.h"
+#include "tests/glew/HelloDot.h"
 
 int main(int argc, const char *argv[])
 {
-  GameLoopTest app;
+  HelloDot app;
 
   app.run();
   return 0;

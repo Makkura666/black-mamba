@@ -19,7 +19,6 @@ public:
   float getGameTime();
   int   getFPS();
   int   getTotalFrames();
-
   void  frameStarted();
   void  frameEnded();
 
