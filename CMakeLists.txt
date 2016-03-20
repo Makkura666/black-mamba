@@ -50,6 +50,12 @@ add_executable(main ${source_files})
 target_link_libraries(main glfw ${GLFW_LIBRARIES} libglew_static)
 
 
+# ┌──────────────────────────────────────────────────────────────────┐
+# │  POST build                                                      │
+# └──────────────────────────────────────────────────────────────────┘
+add_custom_target(run
+    COMMAND open main && quit
+)
 
 
 

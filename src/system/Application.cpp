@@ -126,6 +126,9 @@ void Application::run()
   // also: glfwWindowCloseCallback & glfwSetWindowShouldClose
   while (!glfwWindowShouldClose(window))
   {
+    /*
+    TODO implement http://gafferongames.com/game-physics/fix-your-timestep/
+    */
     // newClock.frameStarted();
 
     // get framebuffer size
