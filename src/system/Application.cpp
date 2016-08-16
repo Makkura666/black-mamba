@@ -8,7 +8,6 @@
 
  #include "Application.h"
 
- #include <GL/glew.h>
  #include <GLFW/glfw3.h>
  #include <string>
  #include <iostream>
@@ -57,16 +56,6 @@ Application::Application() :
 
   // make OpenGL context current
   glfwMakeContextCurrent(window);
-
-  glewExperimental = GL_TRUE;
-  GLenum err = glewInit();
-
-  if (err != GLEW_OK)
-  {
-    glfwTerminate();
-    throw std::runtime_error(std::string("Could initialize GLEW, error = ") +
-                             (const char *)glewGetErrorString(err));
-  }
 
   // get version info
   const GLubyte *renderer = glGetString(GL_RENDERER);
@@ -127,8 +116,9 @@ void Application::run()
   while (!glfwWindowShouldClose(window))
   {
     /*
-    TODO implement http://gafferongames.com/game-physics/fix-your-timestep/
-    */
+       TODO implement http://gafferongames.com/game-physics/fix-your-timestep/
+     */
+
     // newClock.frameStarted();
 
     // get framebuffer size

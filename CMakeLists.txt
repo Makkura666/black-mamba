@@ -5,7 +5,7 @@ cmake_minimum_required (VERSION 2.8)
 project (black-mamba)
 set(GLFW_SOURCE_DIR "lib/glfw")
 set(GLM_SOURCE_DIR "lib/glm")
-set(GLEW_SOURCE_DIR "lib/glew")
+#set(GLEW_SOURCE_DIR "lib/glew")
 
 # ┌──────────────────────────────────────────────────────────────────┐
 # │  Compilation flags                                               │
@@ -33,10 +33,10 @@ include_directories(${GLFW_SOURCE_DIR}/include)
 #)
 
 # glew
-add_definitions(-DGLEW_STATIC)
-option(glew-cmake_BUILD_SHARED "" OFF)
-add_subdirectory(${GLEW_SOURCE_DIR})
-include_directories(${GLEW_SOURCE_DIR}/include ${GLEW_SOURCE_DIR}/src)
+#add_definitions(-DGLEW_STATIC)
+#option(glew-cmake_BUILD_SHARED "" OFF)
+#add_subdirectory(${GLEW_SOURCE_DIR})
+#include_directories(${GLEW_SOURCE_DIR}/include ${GLEW_SOURCE_DIR}/src)
 
 # glm
 include_directories(${GLM_SOURCE_DIR})
@@ -47,7 +47,8 @@ include_directories(${GLM_SOURCE_DIR})
 # └──────────────────────────────────────────────────────────────────┘
 file(GLOB_RECURSE source_files ${PROJECT_SOURCE_DIR}/src/*)
 add_executable(main ${source_files})
-target_link_libraries(main glfw ${GLFW_LIBRARIES} libglew_static)
+#target_link_libraries(main glfw ${GLFW_LIBRARIES} libglew_static)
+target_link_libraries(main glfw ${GLFW_LIBRARIES} )
 
 
 # ┌──────────────────────────────────────────────────────────────────┐

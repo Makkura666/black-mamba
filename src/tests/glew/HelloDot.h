@@ -12,7 +12,6 @@
 #ifndef HELLODOT
 #define HELLODOT
 
-#include <GL/glew.h>
 #include "../../system/Application.h"
 #include "../../system/Math3d.h"
 

@@ -17,7 +17,7 @@
 
 // Globally allocated to handle VBO, OGL objects
 // are almost all accessed via GLuint
-GLuint VBO;
+// GLuint VBO;
 
 HelloDot::HelloDot()
 {
@@ -37,7 +37,7 @@ void HelloDot::drawDot(float x, float y, float z)
   // Future calls will not gen the same object handles
   // unless you glDeleteBuffers first
   // You still have a 'generic buffer'
-  glGenBuffers(1, &VBO);
+  // glGenBuffers(1, &VBO);
 
   // glBindBuffer(GL_ARRAY_BUFFER, VBO);
   // glBufferData(GL_ARRAY_BUFFER, sizeof(Vertices), Vertices, GL_STATIC_DRAW);
